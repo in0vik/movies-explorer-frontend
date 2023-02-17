@@ -1,0 +1,11 @@
+.nav-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-tab__button {
+  width: 96px;
+  font-size: 12px;
+}

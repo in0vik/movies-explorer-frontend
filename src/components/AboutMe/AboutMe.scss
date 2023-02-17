@@ -1,0 +1,54 @@
+.about-me {
+  
+}
+
+.about-me__main-block {
+  margin: 66px 0 0 0;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(200px, 600px) 270px;
+  grid-template-rows: auto;
+  justify-content: space-between;
+}
+
+.about-me__name {
+  margin: 0;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58px;
+  grid-column-start: 1;
+}
+
+.about-me__job {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  grid-column-start: 1;
+}
+
+.about-me__description {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  grid-column-start: 1;
+}
+
+.about-me__github {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  grid-column-start: 1;
+}
+
+.about-me__photo {
+  width: 270px;
+  height: 327px;
+  border-radius: 10px;
+  object-fit: cover;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}

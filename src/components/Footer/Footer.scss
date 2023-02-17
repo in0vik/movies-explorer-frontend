@@ -1,0 +1,32 @@
+@import "../../styles/variables.scss";
+
+.footer {
+  min-height: 172px;
+  background: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.footer__description {
+  margin: $margin-main;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 79px 0 20px 0;
+  color: #A0A0A0;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.footer__info-block {
+  margin: $margin-main;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer__social-block {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
