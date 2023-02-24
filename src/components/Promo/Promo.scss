@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 .promo {
   position: relative;
   background-color: #F5F5F5;
@@ -10,6 +12,14 @@
   align-items: center;
   justify-items: center;
   grid-template-rows: 6fr 96px;
+
+  @media screen and (max-width: $max-width-tablet) {
+    margin: 0 -10px;
+  }
+  @media screen and (max-width: $max-width-mobile) {
+    margin: 0;
+    min-height: 586px;
+  }
 }
 
 .promo__heading {
@@ -21,4 +31,21 @@
   line-height: 58px;
   letter-spacing: -0.04em;
   max-width: 730px;
+  padding-left: 5px;
+  padding-right: 5px;
+  @media screen and (max-width: $max-width-tablet) {
+    font-size: 40px;
+    line-height: 52px;
+    max-width: 622px;
+    padding: 350px 0;
+  }
+
+  @media screen and (max-width: $max-width-mobile) {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 37px;
+    padding: 0;
+  }
+
+    
 }

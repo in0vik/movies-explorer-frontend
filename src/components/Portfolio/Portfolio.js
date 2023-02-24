@@ -1,15 +1,14 @@
 import React from "react";
 import './Portfolio.scss';
-import { Link } from "react-router-dom";
 
 function Portfolio() {
   return (
     <section className="portfolio">
-      <h2 className="portfolio__title">Портфолио</h2>
+      <h2 className="portfolio__title">Portfolio</h2>
       <div className="portfolio__list">
-        <Link to="/" className="link portfolio__item">Статичный сайт</Link>
-        <Link to="/" className="link portfolio__item">Адаптивный сайт</Link>
-        <Link to="/" className="link portfolio__item">Одностраничное приложение</Link>
+        <a href="https://startups.family" target="_blank" className="link portfolio__item">Static site</a>
+        <a href="https://in0vik.github.io/traveling" target="_blank" className="link portfolio__item">Adaptive site</a>
+        <a href="https://whereis.nomoredomainsclub.ru" target="_blank" className="link portfolio__item">Single Page Application</a>
       </div>
     </section>
   );

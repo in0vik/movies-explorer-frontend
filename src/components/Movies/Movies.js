@@ -1,9 +1,14 @@
 import React from "react";
 import './Movies.scss';
+import SearchForm from "../SearchForm/SearchForm";
+import MoviesCardList from "../MoviesCardList/MoviesCardList";
 
 function Movies() {
   return (
-    <section className="movies">Movies</section>
+    <section className="movies">
+      <SearchForm/>
+      <MoviesCardList/>
+    </section>
   );
 }
 

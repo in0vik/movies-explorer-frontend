@@ -10,7 +10,7 @@ function Footer() {
         <p className="footer__year">© 2020</p>
         <nav className="footer__social-block">
             <p className="footer__company-name">Yandex.Praktikum</p>
-            <Link className="footer__github link" to="https://github.com/in0vik">Github</Link>
+            <a href="https://github.com/in0vik" target="_blank" className="footer__github link">Github</a>
         </nav>
       </div>
     </footer>

@@ -1,13 +1,13 @@
 import React from "react";
 import './NavTab.scss';
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 function NavTab() {
   return (
       <div className="nav-tab">
-        <Link className="button nav-tab__button" to="/">О проекте</Link>
-        <Link className="button nav-tab__button" to="/">Технологии</Link>
-        <Link className="button nav-tab__button" to="/">Студент</Link>
+        <Link className="button nav-tab__button" to="#aboutproject">About Project</Link>
+        <Link className="button nav-tab__button" to="#techs">Techs</Link>
+        <Link className="button nav-tab__button" to="#aboutme">About Me</Link>
       </div>
   );
 }
