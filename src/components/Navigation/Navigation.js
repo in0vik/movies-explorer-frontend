@@ -3,7 +3,6 @@ import './Navigation.scss';
 import { Link } from "react-router-dom";
 
 function Navigation() {
-  const [isOpen, setIsOpen] = React.useState(false); // temp
   return (
    <div className="navigation">    
     <input id="menu-button" className="navigation__menu-toggle" type="checkbox"/>

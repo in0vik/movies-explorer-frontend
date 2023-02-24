@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 
 function Header() {
-  const [isOpen, setIsOpen] = React.useState(false);
   const [isLoggedIn, setIsLoggedIn] = React.useState(false); //temp
 
   return (
