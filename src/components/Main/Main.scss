@@ -3,6 +3,7 @@
 .main {
   margin: $margin-main;
   @media screen and (max-width: $max-width-tablet) {
+    
     margin: $margin-main-tablet;
   }
   @media screen and (max-width: $max-width-mobile) {
