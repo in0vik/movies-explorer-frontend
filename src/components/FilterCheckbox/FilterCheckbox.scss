@@ -1,14 +1,7 @@
 @import "../../styles/variables.scss";
 
 .filter-checkbox {
-  position: relative;
-  display: inline-block;
-  width: 36px;
-  height: 20px;
   
-}
-
-.filter-checkbox__wrap {
 
   @media screen and (max-width: $max-width-mobile) {
     position: absolute;
@@ -17,6 +10,14 @@
     margin: -66px 0;
     transform: translateX(-50%);
   }
+  
+}
+
+.filter-checkbox__wrap {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 20px;
 }
 
 
